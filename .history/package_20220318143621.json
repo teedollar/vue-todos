@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+<<<<<<< HEAD
+    "deploy": "node scripts/gh-pages-deploy.mjs"
+=======
+    "deploy": "node scripts/gh-pages-deploy.js"
+>>>>>>> f6f1bf44d9566df3f1b83af72f489b4f3ef06da8
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "bootstrap": "^5.1.3",
+    "pinia": "^2.0.12",
+    "vue": "^3.2.31",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "execa": "latest",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4"
+  }
+}
